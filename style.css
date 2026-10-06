@@ -12,6 +12,12 @@ body {background-color : lightblue;
       border : 2px solid darkblue;
       border-radius : 8px ;
      }
+ul {list-style-type-none;
+   }
+
+li {display:inline;
+    padding:10px;
+   }
 
 p1 {text-align:center;
    color : darkblue; 
