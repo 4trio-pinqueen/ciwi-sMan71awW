@@ -33,6 +33,9 @@ marquee {color: darkblue;
          
         }
 img {
-  width: 300 px;
-  height: auto;
+  width: 200px !important;
+  height: auto !important;
+  max-width: 90% !important;
+  display: block;
+  margin: 0 auto;
 }
