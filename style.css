@@ -12,7 +12,7 @@ h1 {text-align:center;
    }
 
 body {background-color : #FBF5FF ;
-      p.outset {border-style: outset;}
+      p.outset {border-style: outset ;
       border-radius : 8 px ;
      }
 ul {list-style-type-none;
