@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: white;
+  border: 1px #CB89FA;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group .button:hover {
+  background-color: #CB89FA;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+</style>
+</head>
+<body>
+
+<h2>Bordered Button Group</h2>
+
+<p>Add borders to create a bordered button group:</p>
+
+<div class="btn-group">
+  <button class="Index">Button</button>
+  <button class="Design">Button</button>
+  <button class="Produk">Button</button>
+</div>
+</body>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +54,6 @@
     <img src="logo-removebg-preview.png">
     <p class="outset">
   <h2>Filosofi Logo</h2>
-    
     Logo The Clique melambangkan empat anggota perempuan yang disatukan oleh kreativitas,<br>
     kerja sama, dan semangat untuk berkembang dalam dunia teknologi. Monogram T dan C yang 
     saling berpadu menggambarkan kekompakan, sedangkan lingkaran menjadi simbol persatuan <br>
